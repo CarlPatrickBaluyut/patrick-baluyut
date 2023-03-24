@@ -1,70 +1,37 @@
-@font-face {
-    src: url("../fonts/Gasalt-Regular.ttf");
-    font-family:Gasalt-Regular;
-
+@font-face{
+    font-family: Gasalt-Black;
+    src: url(Gasalt-Black.ttf);
 }
-
 body{
-    background-color: lightslategray;
-
-}
-.container{
-    display: center;
-    justify-content: center;
+    background: lightgray;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
     align-items: center;
-    text-align: center;
-    margin-top: 250px;
-}
-
-.item{
-    background-color: white;
-    padding:10px;
-    width:1000px;
-    height:400;
-    
-}
-
-.profile-picture{
-    margin-top: 50px;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 150px;
-}
-
-.name{
-    font-family: Gasalt-Regular;
-    color:black;
-    text-align: center;
-    text-transform: uppercase;
-}
-.bio{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: small;
-}
-a{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 580px;
-
-}
-.social-link{
-    color: #007fb5;
-    border-radius: 40px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-}
-.social-link:hover{
-    border: solid #007fb5 0px;
-}
-.social-icon{
-    font: left;
-    display: block;
-    width: 25px;
-}
+   }
+   
+   .main{
+    background: white;
+     display: grid;
+     justify-items: center;
+     width: 60%;
+     height: 70vh;
+   }
+   
+   h1{
+       text-align: center;
+       font-size: 2rem;
+       font-weight: 600;
+       font-family: Gasalt-Black;
+   }
+   
+   p{
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 20px;
+       margin-top: 10px;
+   }
+   
+  
+   
+  
